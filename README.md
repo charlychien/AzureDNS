@@ -21,7 +21,7 @@ Synchronize all A record-sets (with TTL) from a source Azure Private DNS zone to
 - Azure CLI (tested with `az >= 2.50`).
 - Logged in: `az login` (and if needed: `az account set --subscription <id>`).
 - RBAC: Need `Private DNS Zone Contributor` (or higher) on both zones’ subscriptions.
-- Bash shell (Linux, macOS, WSL, or Git Bash).
+- Bash shell.
 
 ## Configuration
 Edit the variables at the top of the script before running:
